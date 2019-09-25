@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SignatureSample"
+             xmlns:forms="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"   
+             x:Class="SignatureSample.MainPage">
+
+    <StackLayout>
+        <forms:SignaturePadView StrokeColor="Red" BackgroundColor="White" StrokeWidth="2" HeightRequest="200" x:Name="Padview"/>
+        <Button Text="Save Signature" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
